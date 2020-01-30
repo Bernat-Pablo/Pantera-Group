@@ -27,3 +27,6 @@ div.title p{
     font-size: 17px;
     font-style: italic;
 }
+div.index ui li a{
+    display: inline;
+}
