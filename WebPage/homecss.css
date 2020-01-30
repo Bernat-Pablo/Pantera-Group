@@ -12,7 +12,7 @@ body{
 div.title{
     position: absolute;
     right: 50%;
-    top: 30%;
+    top: 25%;
     transform: translate(50%);
     color:var(--myWhite);
     text-align: center;
@@ -27,6 +27,28 @@ div.title p{
     font-size: 17px;
     font-style: italic;
 }
-div.index ui li a{
-    display: inline;
+div.line{
+    height: 3px;
+    width: 90px;
+    position: absolute;
+    right: 50%;
+    top: 18%;
+    transform: translate(50%);
+    background-color: var(--myWhite);
+}
+div.index ul{
+    display: flex;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+}
+div.index ul li{
+    margin: 0px 40px;
+    width: 100px;
+    color: var(--myWhite);
+    list-style-type: none;
+}
+div.index ul li a{
+    text-decoration: none;
+    color:var(--myWhite);
 }
